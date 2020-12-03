@@ -106,8 +106,7 @@ class GMM():#聚类中心的选择问题。
                 ell.set_alpha(0.5)
                 ell.set_fill(False)
                 ax.add_artist(ell)
-                plt.show()
-            fig.show()
+            plt.show()
         
 if __name__=="__main__":
     dataset_name=str(input('OFD or Iris or nothing'))
